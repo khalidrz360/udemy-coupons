@@ -64,5 +64,60 @@
     "coupon_code": "JULIO0701",
     "full_url": "https://www.udemy.com/course/como-migrar-un-sitio-web-wordpress-a-cloudways/?couponCode=JULIO0701",
     "source": "discudemy.com"
+  },
+  {
+    "id": 7,
+    "status": "expired",
+    "found_at": "2026-07-01T22:18:55.101Z",
+    "last_checked": "2026-07-01T22:20:30.010Z",
+    "course_title": "[100% OFF] Start Your One-Person Freelance Agency",
+    "course_url": "https://www.udemy.com/course/start-your-freelancing-agency/",
+    "coupon_code": "AC0BCBDAF6F501B7FC3E",
+    "full_url": "https://www.udemy.com/course/start-your-freelancing-agency/?couponCode=AC0BCBDAF6F501B7FC3E",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 8,
+    "status": "expired",
+    "found_at": "2026-07-01T22:19:11.725Z",
+    "last_checked": "2026-07-01T22:20:34.260Z",
+    "course_title": "[100% OFF] Build a Backend REST API with Node JS from Scratch",
+    "course_url": "https://www.udemy.com/course/build-backend-api-node-js-and-react-frontend/",
+    "coupon_code": "04C6436D337475C4B86E",
+    "full_url": "https://www.udemy.com/course/build-backend-api-node-js-and-react-frontend/?couponCode=04C6436D337475C4B86E",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 9,
+    "status": "expired",
+    "found_at": "2026-07-01T22:19:30.183Z",
+    "last_checked": "2026-07-01T22:20:38.477Z",
+    "course_title": "[100% OFF] Build a User Web App from Scratch with Vanilla PHP 8+",
+    "course_url": "https://www.udemy.com/course/create-real-world-php-webapp-from-scratch/",
+    "coupon_code": "3C4AE013B6A3017D1C12",
+    "full_url": "https://www.udemy.com/course/create-real-world-php-webapp-from-scratch/?couponCode=3C4AE013B6A3017D1C12",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 10,
+    "status": "expired",
+    "found_at": "2026-07-01T22:20:05.735Z",
+    "last_checked": "2026-07-01T22:20:42.707Z",
+    "course_title": "[100% OFF] Cursor Vibe Coding Pro: Build Any App from Scratch with AI",
+    "course_url": "https://www.udemy.com/course/cursor-ai-build-apps/",
+    "coupon_code": "DFE5DD0408B317AA640A",
+    "full_url": "https://www.udemy.com/course/cursor-ai-build-apps/?couponCode=DFE5DD0408B317AA640A",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 11,
+    "status": "expired",
+    "found_at": "2026-07-01T22:20:25.160Z",
+    "last_checked": "2026-07-01T22:20:46.960Z",
+    "course_title": "[100% OFF] BUILD IN PUBLIC Your Learning like a Film & Grow an Audience",
+    "course_url": "https://www.udemy.com/course/how-to-build-in-public/",
+    "coupon_code": "D9330426134EDA2EFB53",
+    "full_url": "https://www.udemy.com/course/how-to-build-in-public/?couponCode=D9330426134EDA2EFB53",
+    "source": "discudemy.com"
   }
 ]
