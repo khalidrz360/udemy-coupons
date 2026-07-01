@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "id": 1,
+    "status": "expired",
+    "found_at": "2026-07-01T20:54:14.522Z",
+    "last_checked": "2026-07-01T20:55:49.017Z",
+    "course_title": "[100% OFF] Cómo Automatizar el SEO de tu Sitio Web con Slim SEO",
+    "course_url": "https://www.udemy.com/course/como-automatizar-el-seo-de-tu-sitio-web-con-slim-seo/",
+    "coupon_code": "JULIO0701",
+    "full_url": "https://www.udemy.com/course/como-automatizar-el-seo-de-tu-sitio-web-con-slim-seo/?couponCode=JULIO0701",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 2,
+    "status": "expired",
+    "found_at": "2026-07-01T20:54:32.622Z",
+    "last_checked": "2026-07-01T20:55:53.379Z",
+    "course_title": "[100% OFF] Cómo Personalizar Productos en WooCommerce con WowAddons",
+    "course_url": "https://www.udemy.com/course/como-personalizar-productos-en-woocommerce-con-wowaddons/",
+    "coupon_code": "JULIO0701",
+    "full_url": "https://www.udemy.com/course/como-personalizar-productos-en-woocommerce-con-wowaddons/?couponCode=JULIO0701",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 3,
+    "status": "expired",
+    "found_at": "2026-07-01T20:54:50.279Z",
+    "last_checked": "2026-07-01T20:55:57.706Z",
+    "course_title": "[100% OFF] Crea una Calculadora de Precios con Pasarela de Pagos 2025",
+    "course_url": "https://www.udemy.com/course/crea-una-calculadora-de-precios-con-pasarela-de-pagos/",
+    "coupon_code": "JULIO0701",
+    "full_url": "https://www.udemy.com/course/crea-una-calculadora-de-precios-con-pasarela-de-pagos/?couponCode=JULIO0701",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 4,
+    "status": "expired",
+    "found_at": "2026-07-01T20:55:08.186Z",
+    "last_checked": "2026-07-01T20:56:02.019Z",
+    "course_title": "[100% OFF] Cómo Crear una Tienda online con WordPress y Cloudways 2025",
+    "course_url": "https://www.udemy.com/course/como-crear-una-tienda-online-con-wordpress-y-cloudways/",
+    "coupon_code": "JULIO0701",
+    "full_url": "https://www.udemy.com/course/como-crear-una-tienda-online-con-wordpress-y-cloudways/?couponCode=JULIO0701",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 5,
+    "status": "expired",
+    "found_at": "2026-07-01T20:55:26.357Z",
+    "last_checked": "2026-07-01T20:56:06.294Z",
+    "course_title": "[100% OFF] Cómo Crear una Página Web en WordPress con IA 2025",
+    "course_url": "https://www.udemy.com/course/como-crear-una-pagina-web-en-wordpress-con-ia/",
+    "coupon_code": "JULIO0701",
+    "full_url": "https://www.udemy.com/course/como-crear-una-pagina-web-en-wordpress-con-ia/?couponCode=JULIO0701",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 6,
+    "status": "expired",
+    "found_at": "2026-07-01T20:55:44.040Z",
+    "last_checked": "2026-07-01T20:56:10.610Z",
+    "course_title": "[100% OFF] Cómo Migrar un Sitio Web de WordPress a Cloudways 2025",
+    "course_url": "https://www.udemy.com/course/como-migrar-un-sitio-web-wordpress-a-cloudways/",
+    "coupon_code": "JULIO0701",
+    "full_url": "https://www.udemy.com/course/como-migrar-un-sitio-web-wordpress-a-cloudways/?couponCode=JULIO0701",
+    "source": "discudemy.com"
+  }
+]
