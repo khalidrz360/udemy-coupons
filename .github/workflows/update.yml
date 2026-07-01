@@ -1,0 +1,39 @@
+name: Update Coupons
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install headless browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Scrape new coupons
+        run: node scripts/scrape-reddit.js
+
+      - name: Check coupon validity
+        run: node scripts/check-coupons.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/coupons.json
+          git diff --staged --quiet || git commit -m "Update coupons [skip ci]"
+          git push
