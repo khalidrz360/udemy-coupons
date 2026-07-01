@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Free Udemy Coupons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 24px; background:#0f1115; color:#e8e8e8; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  p.sub { color: #9aa0a6; margin-top: 0; }
+  input { width: 100%; padding: 10px 12px; font-size: 1rem; border-radius: 8px; border: 1px solid #333; background:#1a1d23; color:#eee; margin: 16px 0; box-sizing: border-box; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .card { background:#1a1d23; border:1px solid #2a2e36; border-radius: 10px; padding: 16px; display:flex; flex-direction:column; gap:8px; }
+  .card h3 { margin:0; font-size: 1rem; line-height:1.3; }
+  .badge { display:inline-block; background:#1d3a2a; color:#5fd98a; font-size:0.75rem; padding:3px 8px; border-radius:999px; width:fit-content; }
+  .card a { margin-top: auto; text-align:center; background:#5b8def; color:white; text-decoration:none; padding:9px; border-radius:6px; font-weight:600; }
+  .meta { font-size: 0.75rem; color:#888; }
+  #empty { color:#888; padding: 40px 0; text-align:center; }
+</style>
+</head>
+<body>
+  <h1>Free Udemy Coupons</h1>
+  <p class="sub">Auto-collected and price-verified by a scheduled GitHub Action. Coupons expire fast — grab them quickly.</p>
+  <input id="search" placeholder="Search courses..." />
+  <div class="grid" id="grid"></div>
+  <div id="empty" style="display:none;">No coupons yet — the first automated run may not have happened. Check the Actions tab in the repo.</div>
+
+<script>
+let all = [];
+
+async function load() {
+  const res = await fetch("data/coupons.json?_=" + Date.now()); // cache-bust
+  all = res.ok ? await res.json() : [];
+  render("");
+}
+
+function render(query) {
+  const grid = document.getElementById("grid");
+  const empty = document.getElementById("empty");
+  const active = all
+    .filter((c) => c.status === "active")
+    .filter((c) => c.course_title.toLowerCase().includes(query.toLowerCase()))
+    .sort((a, b) => new Date(b.found_at) - new Date(a.found_at));
+
+  grid.innerHTML = "";
+  empty.style.display = active.length ? "none" : "block";
+
+  for (const c of active) {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <span class="badge">100% OFF</span>
+      <h3>${c.course_title}</h3>
+      <div class="meta">Source: ${c.source} · Found ${new Date(c.found_at).toLocaleDateString()}</div>
+      <a href="${c.full_url}" target="_blank" rel="noopener">Get course</a>
+    `;
+    grid.appendChild(card);
+  }
+}
+
+document.getElementById("search").addEventListener("input", (e) => render(e.target.value));
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "udemy-coupon-app",
+  "version": "2.0.0",
+  "description": "Collects and validates 100% free Udemy coupon codes, fully automated via GitHub Actions, served as a static site via GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape-reddit.js",
+    "check": "node scripts/check-coupons.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.47.0"
+  }
+}
