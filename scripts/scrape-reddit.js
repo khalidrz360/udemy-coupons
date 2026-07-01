@@ -1,88 +1,107 @@
-// Pulls recent posts from public, read-only Reddit JSON endpoints (no login/API key
-// needed), looks for Udemy course links that contain a couponCode param, and stores
-// any new ones in docs/data/coupons.json as "unverified" (their real validity is
-// confirmed separately by scripts/check-coupons.js).
-//
-// NOTE: Reddit may rate-limit or block requests without a proper User-Agent, or from
-// certain IP ranges over time. If this stops working reliably, register a free app at
-// https://www.reddit.com/prefs/apps and switch this to Reddit's official OAuth API.
+// Multi-source Udemy coupon scraper.
+// Sources: Discudemy.com, Real.Discount — both are public free-course listing pages
+// that work reliably from GitHub Actions (unlike Reddit, which blocks server IPs).
 
 import fetch from "node-fetch";
 import { readCoupons, writeCoupons, upsertCoupon } from "./lib/store.js";
 
-const SUBREDDITS = [
-  "udemyfreebies",
-  "FreeUdemyCourse",
-  "udemyFreeCoupon",
-  "udemycoupon",
-];
-
 const UDEMY_URL_REGEX =
-  /https?:\/\/(?:www\.)?udemy\.com\/course\/[a-zA-Z0-9\-_/]+\/?\?[^\s)"\]]*couponCode=([A-Za-z0-9_\-]+)/g;
+  /https?:\/\/(?:www\.)?udemy\.com\/course\/[a-zA-Z0-9\-_/]+\/?\?[^\s"')&<]*couponCode=([A-Za-z0-9_\-]+)/g;
 
-async function fetchSubredditPosts(subreddit) {
-  const url = `https://www.reddit.com/r/${subreddit}/new.json?limit=50`;
+async function fetchPage(url) {
   const res = await fetch(url, {
-    headers: { "User-Agent": "udemy-coupon-collector/1.0 (personal project)" },
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9",
+    },
   });
-  if (!res.ok) {
-    console.warn(`[${subreddit}] request failed: ${res.status} ${res.statusText}`);
-    return [];
-  }
-  const json = await res.json();
-  return json?.data?.children ?? [];
+  if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
+  return res.text();
 }
 
-function extractCoupons(text) {
-  const matches = [...text.matchAll(UDEMY_URL_REGEX)];
+function extractCouponLinks(html) {
+  const matches = [...html.matchAll(UDEMY_URL_REGEX)];
   return matches.map((m) => ({
-    fullUrl: m[0],
+    fullUrl: m[0].replace(/&amp;/g, "&"),
     couponCode: m[1],
     courseUrl: m[0].split("?")[0],
   }));
 }
 
-async function run() {
-  const coupons = readCoupons();
-  let totalFound = 0;
-  let totalNew = 0;
-
-  for (const subreddit of SUBREDDITS) {
-    console.log(`Scanning r/${subreddit}...`);
-    let posts;
-    try {
-      posts = await fetchSubredditPosts(subreddit);
-    } catch (err) {
-      console.warn(`[${subreddit}] error: ${err.message}`);
-      continue;
-    }
-
-    for (const post of posts) {
-      const data = post.data;
-      const haystack = `${data.title ?? ""} ${data.url ?? ""} ${data.selftext ?? ""}`;
-      const found = extractCoupons(haystack);
-
-      for (const coupon of found) {
-        totalFound++;
-        const added = upsertCoupon(coupons, {
-          course_title: data.title?.slice(0, 200) ?? "Unknown course",
-          course_url: coupon.courseUrl,
-          coupon_code: coupon.couponCode,
-          full_url: coupon.fullUrl,
-          source: `reddit:r/${subreddit}`,
-        });
-        if (added) totalNew++;
-      }
-    }
-
-    await new Promise((r) => setTimeout(r, 1500)); // be polite between requests
-  }
-
-  writeCoupons(coupons);
-  console.log(`Done. Found ${totalFound} coupon links, ${totalNew} new.`);
+function slugToTitle(courseUrl) {
+  const slug = courseUrl.split("/course/")[1]?.replace(/\/$/, "") ?? "unknown";
+  return slug.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 }
 
-run().catch((err) => {
-  console.error("Scrape failed:", err);
-  process.exit(1);
-});
+async function scrapeDiscudemy(coupons) {
+  console.log("Scraping Discudemy...");
+  let newCount = 0;
+  try {
+    for (let page = 1; page <= 3; page++) {
+      const html = await fetchPage(`https://www.discudemy.com/all/${page}`);
+      const goLinks = [...html.matchAll(/href="(https?:\/\/(?:www\.)?discudemy\.com\/go\/[^"]+)"/g)].map((m) => m[1]);
+      for (const goUrl of goLinks) {
+        try {
+          const goHtml = await fetchPage(goUrl);
+          for (const c of extractCouponLinks(goHtml)) {
+            const added = upsertCoupon(coupons, { course_title: slugToTitle(c.courseUrl), course_url: c.courseUrl, coupon_code: c.couponCode, full_url: c.fullUrl, source: "discudemy.com" });
+            if (added) newCount++;
+          }
+          await new Promise((r) => setTimeout(r, 800));
+        } catch (err) { console.warn(`  Discudemy go-page error: ${err.message}`); }
+      }
+      await new Promise((r) => setTimeout(r, 1200));
+    }
+  } catch (err) { console.warn(`Discudemy scrape failed: ${err.message}`); }
+  console.log(`  Discudemy: ${newCount} new coupon(s) found`);
+}
+
+async function scrapeRealDiscount(coupons) {
+  console.log("Scraping Real.Discount...");
+  let newCount = 0;
+  try {
+    for (let page = 1; page <= 3; page++) {
+      const html = await fetchPage(`https://real.discount/search/?type=100off&store=Udemy&page=${page}`);
+      for (const c of extractCouponLinks(html)) {
+        const added = upsertCoupon(coupons, { course_title: slugToTitle(c.courseUrl), course_url: c.courseUrl, coupon_code: c.couponCode, full_url: c.fullUrl, source: "real.discount" });
+        if (added) newCount++;
+      }
+      await new Promise((r) => setTimeout(r, 1200));
+    }
+  } catch (err) { console.warn(`Real.Discount scrape failed: ${err.message}`); }
+  console.log(`  Real.Discount: ${newCount} new coupon(s) found`);
+}
+
+async function scrapeReddit(coupons) {
+  console.log("Scraping Reddit (fallback)...");
+  let newCount = 0;
+  for (const sub of ["udemyfreebies", "FreeUdemyCourse", "udemyFreeCoupon"]) {
+    try {
+      const res = await fetch(`https://www.reddit.com/r/${sub}/new.json?limit=50`, { headers: { "User-Agent": "udemy-coupon-collector/2.0" } });
+      if (!res.ok) { console.warn(`  r/${sub}: HTTP ${res.status}`); continue; }
+      const posts = (await res.json())?.data?.children ?? [];
+      for (const post of posts) {
+        const d = post.data;
+        for (const c of extractCouponLinks(`${d.title ?? ""} ${d.url ?? ""} ${d.selftext ?? ""}`)) {
+          const added = upsertCoupon(coupons, { course_title: d.title?.slice(0, 200) ?? slugToTitle(c.courseUrl), course_url: c.courseUrl, coupon_code: c.couponCode, full_url: c.fullUrl, source: `reddit:r/${sub}` });
+          if (added) newCount++;
+        }
+      }
+    } catch (err) { console.warn(`  r/${sub} error: ${err.message}`); }
+    await new Promise((r) => setTimeout(r, 1500));
+  }
+  console.log(`  Reddit: ${newCount} new coupon(s) found`);
+}
+
+async function run() {
+  const coupons = readCoupons();
+  const before = coupons.length;
+  await scrapeDiscudemy(coupons);
+  await scrapeRealDiscount(coupons);
+  await scrapeReddit(coupons);
+  writeCoupons(coupons);
+  console.log(`\nTotal: ${coupons.length - before} new coupon(s) added. ${coupons.length} in database.`);
+}
+
+run().catch((err) => { console.error("Scrape failed:", err); process.exit(1); });
