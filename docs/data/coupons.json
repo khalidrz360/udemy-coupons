@@ -658,5 +658,159 @@
     "coupon_code": "JULIO0701",
     "full_url": "https://www.udemy.com/course/como-crear-una-pagina-web-para-una-agencia-de-viajes/?couponCode=JULIO0701",
     "source": "discudemy.com"
+  },
+  {
+    "id": 61,
+    "status": "expired",
+    "found_at": "2026-07-02T19:23:47.656Z",
+    "last_checked": "2026-07-02T19:28:00.670Z",
+    "course_title": "AI Chatbot Development & Marketing Masterclass 2025",
+    "course_url": "https://www.udemy.com/course/ai-chatbot-development-marketing-masterclass-2025/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/ai-chatbot-development-marketing-masterclass-2025/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 62,
+    "status": "expired",
+    "found_at": "2026-07-02T19:24:00.546Z",
+    "last_checked": "2026-07-02T19:28:05.810Z",
+    "course_title": "YouTube Mastery Course with AI 2025: Rank, Grow & Monetize",
+    "course_url": "https://www.udemy.com/course/youtube-mastery-course-2025-seo-ai-tools-monetization/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/youtube-mastery-course-2025-seo-ai-tools-monetization/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 63,
+    "status": "expired",
+    "found_at": "2026-07-02T19:24:13.360Z",
+    "last_checked": "2026-07-02T19:28:10.934Z",
+    "course_title": "Wordpress no code Mastery Course  With Advance SEO 2025",
+    "course_url": "https://www.udemy.com/course/worrdpress-no-code-mastery-course-with-advance-seo/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/worrdpress-no-code-mastery-course-with-advance-seo/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 64,
+    "status": "expired",
+    "found_at": "2026-07-02T19:24:26.201Z",
+    "last_checked": "2026-07-02T19:28:16.061Z",
+    "course_title": "AI Prompt Engineering and Tools for Marketing Businesses",
+    "course_url": "https://www.udemy.com/course/ai-prompt-engineering-and-tools-for-marketing-businesses/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/ai-prompt-engineering-and-tools-for-marketing-businesses/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 65,
+    "status": "expired",
+    "found_at": "2026-07-02T19:24:38.980Z",
+    "last_checked": "2026-07-02T19:28:21.189Z",
+    "course_title": "Complete Email Marketing Course with AI 2025",
+    "course_url": "https://www.udemy.com/course/complete-email-marketing-course-with-ai-2025/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/complete-email-marketing-course-with-ai-2025/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 66,
+    "status": "expired",
+    "found_at": "2026-07-02T19:24:51.848Z",
+    "last_checked": "2026-07-02T19:28:26.324Z",
+    "course_title": "The Complete Social Media Growth Mastery With AI 2024",
+    "course_url": "https://www.udemy.com/course/the-complete-social-media-growth-mastery-with-ai-2024/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/the-complete-social-media-growth-mastery-with-ai-2024/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 67,
+    "status": "expired",
+    "found_at": "2026-07-02T19:25:04.650Z",
+    "last_checked": "2026-07-02T19:28:31.476Z",
+    "course_title": "Google Ads Mastery for beginners 2024",
+    "course_url": "https://www.udemy.com/course/google-ads-mastery-for-beginners-2024/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/google-ads-mastery-for-beginners-2024/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 68,
+    "status": "expired",
+    "found_at": "2026-07-02T19:25:17.531Z",
+    "last_checked": "2026-07-02T19:28:36.604Z",
+    "course_title": "Diploma in Sales and Business development 2025",
+    "course_url": "https://www.udemy.com/course/diploma-in-sales-and-business-development-2025/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/diploma-in-sales-and-business-development-2025/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 69,
+    "status": "expired",
+    "found_at": "2026-07-02T19:25:30.392Z",
+    "last_checked": "2026-07-02T19:28:41.724Z",
+    "course_title": "Software Testing Mastery  2025: QA Fundamentals to Expert",
+    "course_url": "https://www.udemy.com/course/software-testing-mastery-courses/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/software-testing-mastery-courses/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 70,
+    "status": "expired",
+    "found_at": "2026-07-02T19:25:43.285Z",
+    "last_checked": "2026-07-02T19:28:46.850Z",
+    "course_title": "Complete Google My business and lead generation wih AI",
+    "course_url": "https://www.udemy.com/course/complete-google-my-business-and-lead-generation-wih-ai/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/complete-google-my-business-and-lead-generation-wih-ai/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 71,
+    "status": "expired",
+    "found_at": "2026-07-02T19:25:56.087Z",
+    "last_checked": "2026-07-02T19:28:51.968Z",
+    "course_title": "AI in Digital Marketing and Social Media Mastery in Hindi",
+    "course_url": "https://www.udemy.com/course/ai-in-digital-marketing-and-social-media-mastery-in-hindi/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/ai-in-digital-marketing-and-social-media-mastery-in-hindi/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 72,
+    "status": "expired",
+    "found_at": "2026-07-02T19:26:08.940Z",
+    "last_checked": "2026-07-02T19:28:57.093Z",
+    "course_title": "BPO Quality Auditor Certification 2026: AI Audit & QA",
+    "course_url": "https://www.udemy.com/course/bpo-quality-auditor-certification-2026-ai-audit-qa/",
+    "coupon_code": "AIFRECOURSE",
+    "full_url": "https://www.udemy.com/course/bpo-quality-auditor-certification-2026-ai-audit-qa/?couponCode=AIFRECOURSE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 73,
+    "status": "expired",
+    "found_at": "2026-07-02T19:26:21.725Z",
+    "last_checked": "2026-07-02T19:29:02.210Z",
+    "course_title": "AI Freelancing Mastery: Get Clients, Build Agency & Scale",
+    "course_url": "https://www.udemy.com/course/ai-freelancing-mastery-get-clients-build-agency-scale/",
+    "coupon_code": "AIFORFREE",
+    "full_url": "https://www.udemy.com/course/ai-freelancing-mastery-get-clients-build-agency-scale/?couponCode=AIFORFREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 74,
+    "status": "expired",
+    "found_at": "2026-07-02T19:26:34.638Z",
+    "last_checked": "2026-07-02T19:29:07.344Z",
+    "course_title": "Funnel Marketing with AI 2026: From Zero to Sales",
+    "course_url": "https://www.udemy.com/course/funnel-marketing-with-ai-2026-from-zero-to-sales/",
+    "coupon_code": "FREEAICOURSE",
+    "full_url": "https://www.udemy.com/course/funnel-marketing-with-ai-2026-from-zero-to-sales/?couponCode=FREEAICOURSE",
+    "source": "discudemy.com"
   }
 ]
