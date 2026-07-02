@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "id": 1,
+    "status": "expired",
+    "found_at": "2026-07-02T12:03:15.322Z",
+    "last_checked": "2026-07-02T12:07:26.866Z",
+    "course_title": "Advanced Capcut Course Learn Professional Video Editing",
+    "course_url": "https://www.udemy.com/course/advanced-capcut-course-learn-professional-video-editing/",
+    "coupon_code": "78E47ADE9A368221E117",
+    "full_url": "https://www.udemy.com/course/advanced-capcut-course-learn-professional-video-editing/?couponCode=78E47ADE9A368221E117",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 2,
+    "status": "expired",
+    "found_at": "2026-07-02T12:03:28.309Z",
+    "last_checked": "2026-07-02T12:07:31.973Z",
+    "course_title": "Flutter Masterclass - Your Complete Guide to App Development",
+    "course_url": "https://www.udemy.com/course/flutter-masterclass-your-complete-guide-to-app-development/",
+    "coupon_code": "442010321127AE1AFAA2",
+    "full_url": "https://www.udemy.com/course/flutter-masterclass-your-complete-guide-to-app-development/?couponCode=442010321127AE1AFAA2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 3,
+    "status": "expired",
+    "found_at": "2026-07-02T12:03:41.240Z",
+    "last_checked": "2026-07-02T12:07:37.079Z",
+    "course_title": "Python Web Developer Masterclass - Build 6 Website",
+    "course_url": "https://www.udemy.com/course/python-web-developer-masterclass-build-6-website/",
+    "coupon_code": "0F23724F5ADA9D4622E9",
+    "full_url": "https://www.udemy.com/course/python-web-developer-masterclass-build-6-website/?couponCode=0F23724F5ADA9D4622E9",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 4,
+    "status": "expired",
+    "found_at": "2026-07-02T12:03:54.097Z",
+    "last_checked": "2026-07-02T12:07:42.184Z",
+    "course_title": "Canva Social Media Masterclass Graphic Design Video Editing",
+    "course_url": "https://www.udemy.com/course/canva-social-media-masterclass-graphic-design-video-editing/",
+    "coupon_code": "F590A15B8CE173069498",
+    "full_url": "https://www.udemy.com/course/canva-social-media-masterclass-graphic-design-video-editing/?couponCode=F590A15B8CE173069498",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 5,
+    "status": "expired",
+    "found_at": "2026-07-02T12:04:07.052Z",
+    "last_checked": "2026-07-02T12:07:47.294Z",
+    "course_title": "Become 3D Expect With Sketchup Pro, Basic to Advance Level.",
+    "course_url": "https://www.udemy.com/course/5-story-luxury-apartments-with-high-futures-sketch-up-pro/",
+    "coupon_code": "BN3EDD2",
+    "full_url": "https://www.udemy.com/course/5-story-luxury-apartments-with-high-futures-sketch-up-pro/?couponCode=BN3EDD2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 6,
+    "status": "expired",
+    "found_at": "2026-07-02T12:04:19.948Z",
+    "last_checked": "2026-07-02T12:07:52.398Z",
+    "course_title": "How to sell like a pro (Business and Service Course).",
+    "course_url": "https://www.udemy.com/course/how-to-sell-like-a-pro-business-and-service-course/",
+    "coupon_code": "B1FE1172CAE6F5B6E2AA",
+    "full_url": "https://www.udemy.com/course/how-to-sell-like-a-pro-business-and-service-course/?couponCode=B1FE1172CAE6F5B6E2AA",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 7,
+    "status": "expired",
+    "found_at": "2026-07-02T12:04:32.875Z",
+    "last_checked": "2026-07-02T12:07:57.506Z",
+    "course_title": "Microsoft Excel: Complete Excel from Beginner to Advanced",
+    "course_url": "https://www.udemy.com/course/microsoft-excel-complete-excel-from-beginner-to-advanced/",
+    "coupon_code": "D0171918D92BE2A7663D",
+    "full_url": "https://www.udemy.com/course/microsoft-excel-complete-excel-from-beginner-to-advanced/?couponCode=D0171918D92BE2A7663D",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 8,
+    "status": "expired",
+    "found_at": "2026-07-02T12:04:45.781Z",
+    "last_checked": "2026-07-02T12:08:02.601Z",
+    "course_title": "Mastering C# Learn Building Games, Application, Softwares",
+    "course_url": "https://www.udemy.com/course/mastering-c-learn-building-games-application-softwares/",
+    "coupon_code": "53EBF3C615261B522C76",
+    "full_url": "https://www.udemy.com/course/mastering-c-learn-building-games-application-softwares/?couponCode=53EBF3C615261B522C76",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 9,
+    "status": "expired",
+    "found_at": "2026-07-02T12:04:58.628Z",
+    "last_checked": "2026-07-02T12:08:07.708Z",
+    "course_title": "Advanced Instagram Marketing Blueprint Complete Guide",
+    "course_url": "https://www.udemy.com/course/advanced-instagram-marketing-blueprint-complete-guide/",
+    "coupon_code": "D0A8EC12B3244EAD828F",
+    "full_url": "https://www.udemy.com/course/advanced-instagram-marketing-blueprint-complete-guide/?couponCode=D0A8EC12B3244EAD828F",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 10,
+    "status": "expired",
+    "found_at": "2026-07-02T12:05:11.463Z",
+    "last_checked": "2026-07-02T12:08:12.812Z",
+    "course_title": "Programming Bootcamp with Python, JavaScript, C++, PHP MySql",
+    "course_url": "https://www.udemy.com/course/programming-bootcamp-with-web-and-application-development/",
+    "coupon_code": "D4FAA60AB7B49405829C",
+    "full_url": "https://www.udemy.com/course/programming-bootcamp-with-web-and-application-development/?couponCode=D4FAA60AB7B49405829C",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 11,
+    "status": "expired",
+    "found_at": "2026-07-02T12:05:24.320Z",
+    "last_checked": "2026-07-02T12:08:17.910Z",
+    "course_title": "Python Django Full Stack Development: Build Modern Web App",
+    "course_url": "https://www.udemy.com/course/python-django-full-stack-development-build-modern-web-app/",
+    "coupon_code": "E2440A164297076F5873",
+    "full_url": "https://www.udemy.com/course/python-django-full-stack-development-build-modern-web-app/?couponCode=E2440A164297076F5873",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 12,
+    "status": "expired",
+    "found_at": "2026-07-02T12:05:37.158Z",
+    "last_checked": "2026-07-02T12:08:23.014Z",
+    "course_title": "Advanced Python Automation for Excel and Accounting",
+    "course_url": "https://www.udemy.com/course/advanced-python-automation-for-excel-and-accounting/",
+    "coupon_code": "21AB4E416C606C777434",
+    "full_url": "https://www.udemy.com/course/advanced-python-automation-for-excel-and-accounting/?couponCode=21AB4E416C606C777434",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 13,
+    "status": "expired",
+    "found_at": "2026-07-02T12:05:50.014Z",
+    "last_checked": "2026-07-02T12:08:28.117Z",
+    "course_title": "Master Full Stack Web Development With Games and Application",
+    "course_url": "https://www.udemy.com/course/master-full-stack-web-development-with-games-and-application/",
+    "coupon_code": "9BA04740AEFD01F5F64A",
+    "full_url": "https://www.udemy.com/course/master-full-stack-web-development-with-games-and-application/?couponCode=9BA04740AEFD01F5F64A",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 14,
+    "status": "expired",
+    "found_at": "2026-07-02T12:06:02.847Z",
+    "last_checked": "2026-07-02T12:08:33.223Z",
+    "course_title": "Python Automation Mastery Automate Boring Tasks Like a Pro",
+    "course_url": "https://www.udemy.com/course/python-automation-mastery-automate-boring-tasks-like-a-pro/",
+    "coupon_code": "5C5E1A94999022474173",
+    "full_url": "https://www.udemy.com/course/python-automation-mastery-automate-boring-tasks-like-a-pro/?couponCode=5C5E1A94999022474173",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 15,
+    "status": "expired",
+    "found_at": "2026-07-02T12:06:15.707Z",
+    "last_checked": "2026-07-02T12:08:38.329Z",
+    "course_title": "Master Python for Data Science, Machine Learning, Automation",
+    "course_url": "https://www.udemy.com/course/master-python-for-data-science-machine-learning-automation/",
+    "coupon_code": "8F1EF3A7864FC3CF469F",
+    "full_url": "https://www.udemy.com/course/master-python-for-data-science-machine-learning-automation/?couponCode=8F1EF3A7864FC3CF469F",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 16,
+    "status": "expired",
+    "found_at": "2026-07-02T12:06:28.648Z",
+    "last_checked": "2026-07-02T12:08:43.434Z",
+    "course_title": "Microsoft Excel Data Analysis: Become a Data Analysis Expert",
+    "course_url": "https://www.udemy.com/course/microsoft-excel-data-analysis-become-a-data-analysis-expert/",
+    "coupon_code": "B48812A2D438E983F00E",
+    "full_url": "https://www.udemy.com/course/microsoft-excel-data-analysis-become-a-data-analysis-expert/?couponCode=B48812A2D438E983F00E",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 17,
+    "status": "expired",
+    "found_at": "2026-07-02T12:06:41.615Z",
+    "last_checked": "2026-07-02T12:08:48.535Z",
+    "course_title": "Microsoft Excel Formulas and Functions: Beginner to Expert",
+    "course_url": "https://www.udemy.com/course/microsoft-excel-formulas-and-functions-beginner-to-expert/",
+    "coupon_code": "8CB0AE1055543E299484",
+    "full_url": "https://www.udemy.com/course/microsoft-excel-formulas-and-functions-beginner-to-expert/?couponCode=8CB0AE1055543E299484",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 18,
+    "status": "expired",
+    "found_at": "2026-07-02T12:06:54.521Z",
+    "last_checked": "2026-07-02T12:08:53.634Z",
+    "course_title": "ReactJs - The Complete ReactJs Course For Beginners",
+    "course_url": "https://www.udemy.com/course/reactjs-the-complete-reactjs-course-for-beginners/",
+    "coupon_code": "E626285AB5252406E34E",
+    "full_url": "https://www.udemy.com/course/reactjs-the-complete-reactjs-course-for-beginners/?couponCode=E626285AB5252406E34E",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 19,
+    "status": "expired",
+    "found_at": "2026-07-02T12:07:07.385Z",
+    "last_checked": "2026-07-02T12:08:58.740Z",
+    "course_title": "The Complete JavaScript Course: From Zero to Expert",
+    "course_url": "https://www.udemy.com/course/the-complete-javascript-course-from-zero-to-expert-o/",
+    "coupon_code": "E962BE9F998B68288C31",
+    "full_url": "https://www.udemy.com/course/the-complete-javascript-course-from-zero-to-expert-o/?couponCode=E962BE9F998B68288C31",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 20,
+    "status": "expired",
+    "found_at": "2026-07-02T12:07:20.297Z",
+    "last_checked": "2026-07-02T12:09:03.843Z",
+    "course_title": "NumPy, SciPy, Matplotlib & Pandas A-Z: Machine Learning",
+    "course_url": "https://www.udemy.com/course/numpy-scipy-matplotlib-pandas-a-z-machine-learning/",
+    "coupon_code": "8578533009649700809D",
+    "full_url": "https://www.udemy.com/course/numpy-scipy-matplotlib-pandas-a-z-machine-learning/?couponCode=8578533009649700809D",
+    "source": "discudemy.com"
+  }
+]
