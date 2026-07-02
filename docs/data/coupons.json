@@ -119,5 +119,27 @@
     "coupon_code": "D9330426134EDA2EFB53",
     "full_url": "https://www.udemy.com/course/how-to-build-in-public/?couponCode=D9330426134EDA2EFB53",
     "source": "discudemy.com"
+  },
+  {
+    "id": 12,
+    "status": "expired",
+    "found_at": "2026-07-02T03:27:39.245Z",
+    "last_checked": "2026-07-02T03:29:16.039Z",
+    "course_title": "[100% OFF] Mastering Innovation Competitions, Hackathon & Crowdsourcing",
+    "course_url": "https://www.udemy.com/course/mastering-innovation-competitions-hackathon-crowdsourcing/",
+    "coupon_code": "69078936A7CBE08CD819",
+    "full_url": "https://www.udemy.com/course/mastering-innovation-competitions-hackathon-crowdsourcing/?couponCode=69078936A7CBE08CD819",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 13,
+    "status": "expired",
+    "found_at": "2026-07-02T03:27:59.737Z",
+    "last_checked": "2026-07-02T03:29:20.401Z",
+    "course_title": "[100% OFF] Practical Photography for Absolute Beginners: 9 Courses in 1",
+    "course_url": "https://www.udemy.com/course/complete-photography-course/",
+    "coupon_code": "PHOTO9JULY26",
+    "full_url": "https://www.udemy.com/course/complete-photography-course/?couponCode=PHOTO9JULY26",
+    "source": "discudemy.com"
   }
 ]
