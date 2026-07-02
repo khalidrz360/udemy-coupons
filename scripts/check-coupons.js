@@ -1,89 +1,92 @@
-// Visits each stored coupon's Udemy URL in a real (headless) browser and reads the
-// actual displayed price. If it shows Free / $0, marks the coupon "active"; otherwise
-// "expired". Also drops coupons that have been expired for more than 14 days, to keep
-// the data file small.
-//
-// NOTE: Udemy's page structure / CSS selectors can change at any time — if this stops
-// detecting prices correctly, inspect the course page HTML and update PRICE_SELECTORS.
-
 import { chromium } from "playwright";
-import { readCoupons, writeCoupons } from "./lib/store.js";
+import { readCoupons, writeCoupons, updateCouponStatus } from "./lib/store.js";
 
-const PRICE_SELECTORS = [
-  '[data-purpose="course-price-text"]',
-  '[data-purpose="discount-price"] span',
-  ".price-text--final-price--2tP5h",
-];
+const MAX_PER_RUN = 40;
+const PRUNE_AFTER_DAYS = 7;
 
-const FREE_PATTERNS = [/free/i, /^\$?0(\.00)?$/];
-const MAX_TO_CHECK_PER_RUN = 60; // keep each Action run reasonably fast
-const PRUNE_EXPIRED_AFTER_DAYS = 14;
-
-async function getDisplayedPrice(page) {
-  for (const selector of PRICE_SELECTORS) {
-    const el = await page.$(selector);
-    if (el) {
-      const text = (await el.textContent())?.trim();
-      if (text) return text;
-    }
-  }
-  return null;
-}
-
-async function checkCoupon(browser, coupon) {
-  const page = await browser.newPage({
-    userAgent:
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-  });
-
+async function isCouponFree(page, url) {
   try {
-    await page.goto(coupon.full_url, { waitUntil: "domcontentloaded", timeout: 30000 });
-    await page.waitForTimeout(2000);
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
+    await page.waitForTimeout(3000);
 
-    const priceText = await getDisplayedPrice(page);
-    const isFree = priceText && FREE_PATTERNS.some((re) => re.test(priceText));
+    const result = await page.evaluate(() => {
+      const allText = document.body.innerText || "";
+      const freeSignals = [
+        /\$\s*0\.00/,
+        /enroll\s*for\s*free/i,
+        /free\s*enroll/i,
+        /price[^a-z]*free/i,
+      ];
+      for (const re of freeSignals) {
+        if (re.test(allText)) return { free: true, reason: re.toString() };
+      }
+      const priceSelectors = [
+        '[data-purpose*="price"]','[class*="price"]','[class*="Price"]',
+        '[data-purpose*="coupon"]','div[class*="purchase"] span',
+      ];
+      const priceTexts = [];
+      for (const sel of priceSelectors) {
+        for (const el of document.querySelectorAll(sel)) {
+          const t = el.innerText?.trim();
+          if (t && t.length < 30) priceTexts.push(t);
+        }
+      }
+      const priceSample = [...new Set(priceTexts)].slice(0, 8);
+      for (const t of priceSample) {
+        if (/free|\$\s*0(\.00)?/i.test(t)) return { free: true, reason: `"${t}"` };
+      }
+      return { free: false, priceSample, snippet: allText.slice(0, 300).replace(/\s+/g," ") };
+    });
 
-    coupon.status = isFree ? "active" : "expired";
-    coupon.last_checked = new Date().toISOString();
-    console.log(`[${coupon.status.toUpperCase()}] ${coupon.course_title} (price: ${priceText ?? "not found"})`);
+    if (result.free) { console.log(`  ✓ FREE — ${result.reason}`); return true; }
+    console.log(`  ✗ PAID — prices: [${(result.priceSample||[]).join(" | ")}]`);
+    console.log(`  page text: ${(result.snippet||"").slice(0,200)}`);
+    return false;
   } catch (err) {
-    console.warn(`Failed to check "${coupon.course_title}": ${err.message}`);
-    // Leave status untouched on a network/timeout failure.
-  } finally {
-    await page.close();
+    console.warn(`  ⚠ Error (skipping): ${err.message.slice(0,80)}`);
+    return null;
   }
 }
 
 async function run() {
   const coupons = readCoupons();
-
   const toCheck = coupons
-    .filter((c) => c.status !== "expired")
-    .sort((a, b) => new Date(a.last_checked || 0) - new Date(b.last_checked || 0))
-    .slice(0, MAX_TO_CHECK_PER_RUN);
+    .filter(c => c.status !== "expired")
+    .sort((a, b) => {
+      if (a.status === "unverified" && b.status !== "unverified") return -1;
+      if (b.status === "unverified" && a.status !== "unverified") return 1;
+      return new Date(a.last_checked || 0) - new Date(b.last_checked || 0);
+    })
+    .slice(0, MAX_PER_RUN);
 
-  if (toCheck.length === 0) {
-    console.log("No coupons need checking right now.");
-  } else {
+  if (!toCheck.length) { console.log("Nothing to check."); }
+  else {
     console.log(`Checking ${toCheck.length} coupon(s)...`);
-    const browser = await chromium.launch({ headless: true });
-    for (const coupon of toCheck) {
-      await checkCoupon(browser, coupon);
-      await new Promise((r) => setTimeout(r, 2000));
+    const browser = await chromium.launch({
+      headless: true,
+      args: ["--no-sandbox","--disable-setuid-sandbox","--disable-dev-shm-usage"],
+    });
+    for (const c of toCheck) {
+      console.log(`\n[${c.id}] ${c.course_title.slice(0,60)}`);
+      const page = await browser.newPage();
+      try {
+        const free = await isCouponFree(page, c.full_url);
+        if (free === true) updateCouponStatus(c, "active");
+        else if (free === false) updateCouponStatus(c, "expired");
+      } finally { await page.close(); }
+      await new Promise(r => setTimeout(r, 2000));
     }
     await browser.close();
   }
 
-  const cutoff = Date.now() - PRUNE_EXPIRED_AFTER_DAYS * 24 * 60 * 60 * 1000;
-  const kept = coupons.filter(
-    (c) => c.status !== "expired" || new Date(c.last_checked || c.found_at).getTime() > cutoff
+  const cutoff = Date.now() - PRUNE_AFTER_DAYS * 86400000;
+  const kept = coupons.filter(c =>
+    c.status !== "expired" || new Date(c.last_checked || c.found_at).getTime() > cutoff
   );
-
   writeCoupons(kept);
-  console.log(`Done. ${kept.length} coupons stored (${coupons.length - kept.length} pruned).`);
+  const active = kept.filter(c => c.status === "active").length;
+  const unverified = kept.filter(c => c.status === "unverified").length;
+  console.log(`\nDone. ${active} active, ${unverified} unverified, ${coupons.length - kept.length} pruned.`);
 }
 
-run().catch((err) => {
-  console.error("Validity check failed:", err);
-  process.exit(1);
-});
+run().catch(err => { console.error("Check failed:", err); process.exit(1); });
