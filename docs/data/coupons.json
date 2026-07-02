@@ -812,5 +812,27 @@
     "coupon_code": "FREEAICOURSE",
     "full_url": "https://www.udemy.com/course/funnel-marketing-with-ai-2026-from-zero-to-sales/?couponCode=FREEAICOURSE",
     "source": "discudemy.com"
+  },
+  {
+    "id": 75,
+    "status": "expired",
+    "found_at": "2026-07-02T21:05:53.316Z",
+    "last_checked": "2026-07-02T21:09:59.355Z",
+    "course_title": "Smartsheet for Project Management in 2024 - Earn 3 PDUs.",
+    "course_url": "https://www.udemy.com/course/smartsheet-for-project-management-pmp/",
+    "coupon_code": "24BDE6484A4812F8D696",
+    "full_url": "https://www.udemy.com/course/smartsheet-for-project-management-pmp/?couponCode=24BDE6484A4812F8D696",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 76,
+    "status": "expired",
+    "found_at": "2026-07-02T21:06:05.861Z",
+    "last_checked": "2026-07-02T21:10:04.505Z",
+    "course_title": "Desarrollo serverless con AWS - De cero a experimentado",
+    "course_url": "https://www.udemy.com/course/desarrollo-con-aws-de-cero-a-experimentado/",
+    "coupon_code": "KETHERLABSJULY26AG",
+    "full_url": "https://www.udemy.com/course/desarrollo-con-aws-de-cero-a-experimentado/?couponCode=KETHERLABSJULY26AG",
+    "source": "discudemy.com"
   }
 ]
