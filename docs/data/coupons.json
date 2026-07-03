@@ -1956,5 +1956,16 @@
     "coupon_code": "JULIO0701",
     "full_url": "https://www.udemy.com/course/siteground-migrator-migra-tu-web-con-wordpress-a-siteground/?couponCode=JULIO0701",
     "source": "discudemy.com"
+  },
+  {
+    "id": 179,
+    "status": "expired",
+    "found_at": "2026-07-03T23:03:25.380Z",
+    "last_checked": "2026-07-03T23:07:31.931Z",
+    "course_title": "Bootcamp AI-901: Microsoft Azure AI Fundamentals Course",
+    "course_url": "https://www.udemy.com/course/bootcamp-ai-901-microsoft-azure-ai-fundamentals-course/",
+    "coupon_code": "A3BC86BDA57FGAA26288",
+    "full_url": "https://www.udemy.com/course/bootcamp-ai-901-microsoft-azure-ai-fundamentals-course/?couponCode=A3BC86BDA57FGAA26288",
+    "source": "discudemy.com"
   }
 ]
