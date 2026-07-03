@@ -1021,5 +1021,38 @@
     "coupon_code": "JUNEMO1",
     "full_url": "https://www.udemy.com/course/html-like-never-before/?couponCode=JUNEMO1",
     "source": "discudemy.com"
+  },
+  {
+    "id": 94,
+    "status": "expired",
+    "found_at": "2026-07-03T02:53:44.331Z",
+    "last_checked": "2026-07-03T02:57:51.369Z",
+    "course_title": "C++ Complete Training Course for C++ Beginners All In One",
+    "course_url": "https://www.udemy.com/course/c-complete-training-course-for-beginners-2022/",
+    "coupon_code": "278C5CEC23F500015A25",
+    "full_url": "https://www.udemy.com/course/c-complete-training-course-for-beginners-2022/?couponCode=278C5CEC23F500015A25",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 95,
+    "status": "expired",
+    "found_at": "2026-07-03T02:53:56.925Z",
+    "last_checked": "2026-07-03T02:57:56.499Z",
+    "course_title": "JavaScript And PHP And Python Programming Complete Course",
+    "course_url": "https://www.udemy.com/course/javascript-and-php-and-python-programming-complete-course/",
+    "coupon_code": "46B24E0449C84E00C607",
+    "full_url": "https://www.udemy.com/course/javascript-and-php-and-python-programming-complete-course/?couponCode=46B24E0449C84E00C607",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 96,
+    "status": "expired",
+    "found_at": "2026-07-03T02:54:09.462Z",
+    "last_checked": "2026-07-03T02:58:01.614Z",
+    "course_title": "Data Skills for Finance Professionals",
+    "course_url": "https://www.udemy.com/course/data-skills-for-finance-professionals/",
+    "coupon_code": "EXCELMOJODATASKILLS",
+    "full_url": "https://www.udemy.com/course/data-skills-for-finance-professionals/?couponCode=EXCELMOJODATASKILLS",
+    "source": "discudemy.com"
   }
 ]
