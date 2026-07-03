@@ -1736,5 +1736,93 @@
     "coupon_code": "JULFREE03",
     "full_url": "https://www.udemy.com/course/ciberseguridad-101-fundamentos-para-principiantes-absolutos/?couponCode=JULFREE03",
     "source": "discudemy.com"
+  },
+  {
+    "id": 159,
+    "status": "expired",
+    "found_at": "2026-07-03T17:25:29.834Z",
+    "last_checked": "2026-07-03T17:29:40.617Z",
+    "course_title": "Mastering Microsoft Project",
+    "course_url": "https://www.udemy.com/course/microsoft-project-f/",
+    "coupon_code": "CF96A61103E9A446ADAD",
+    "full_url": "https://www.udemy.com/course/microsoft-project-f/?couponCode=CF96A61103E9A446ADAD",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 160,
+    "status": "expired",
+    "found_at": "2026-07-03T17:25:42.611Z",
+    "last_checked": "2026-07-03T17:29:45.749Z",
+    "course_title": "Quantity Surveying for G+11 High-Rise Buildings Estimation",
+    "course_url": "https://www.udemy.com/course/quantity-surveying-for-g11-high-rise-buildings-estimation/",
+    "coupon_code": "F40F1119968971834F8B",
+    "full_url": "https://www.udemy.com/course/quantity-surveying-for-g11-high-rise-buildings-estimation/?couponCode=F40F1119968971834F8B",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 161,
+    "status": "expired",
+    "found_at": "2026-07-03T17:25:55.440Z",
+    "last_checked": "2026-07-03T17:29:50.880Z",
+    "course_title": "Mastering Procurement and Supply Chain Management",
+    "course_url": "https://www.udemy.com/course/procurementandscm/",
+    "coupon_code": "A33AE384E1D73B0D323C",
+    "full_url": "https://www.udemy.com/course/procurementandscm/?couponCode=A33AE384E1D73B0D323C",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 162,
+    "status": "expired",
+    "found_at": "2026-07-03T17:26:08.366Z",
+    "last_checked": "2026-07-03T17:29:55.999Z",
+    "course_title": "Professional Diploma in Procurement and Vendor Management",
+    "course_url": "https://www.udemy.com/course/procurement-and-vendor-management/",
+    "coupon_code": "D22F05F6C67BB76E1F83",
+    "full_url": "https://www.udemy.com/course/procurement-and-vendor-management/?couponCode=D22F05F6C67BB76E1F83",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 163,
+    "status": "expired",
+    "found_at": "2026-07-03T17:26:21.513Z",
+    "last_checked": "2026-07-03T17:30:01.117Z",
+    "course_title": "Professional Diploma in Procurement Management",
+    "course_url": "https://www.udemy.com/course/professional-diploma-in-procurement-management/",
+    "coupon_code": "F3710214206304A94EC1",
+    "full_url": "https://www.udemy.com/course/professional-diploma-in-procurement-management/?couponCode=F3710214206304A94EC1",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 164,
+    "status": "expired",
+    "found_at": "2026-07-03T17:26:34.418Z",
+    "last_checked": "2026-07-03T17:30:06.244Z",
+    "course_title": "١- ٢ - استراتیجیات التسویق",
+    "course_url": "https://www.udemy.com/course/marketing_fundmentals_strategies/",
+    "coupon_code": "8BB843477ADD93F62FBC",
+    "full_url": "https://www.udemy.com/course/marketing_fundmentals_strategies/?couponCode=8BB843477ADD93F62FBC",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 165,
+    "status": "expired",
+    "found_at": "2026-07-03T17:26:47.183Z",
+    "last_checked": "2026-07-03T17:30:11.375Z",
+    "course_title": "Professional Diploma in Supply Chain, Procurement, Logistics",
+    "course_url": "https://www.udemy.com/course/supplychain-procurement-logistics/",
+    "coupon_code": "7AD6EA9E0CA421B30B7C",
+    "full_url": "https://www.udemy.com/course/supplychain-procurement-logistics/?couponCode=7AD6EA9E0CA421B30B7C",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 166,
+    "status": "expired",
+    "found_at": "2026-07-03T17:27:00.075Z",
+    "last_checked": "2026-07-03T17:30:16.504Z",
+    "course_title": "Web Design Course for Beginners to Intermediate",
+    "course_url": "https://www.udemy.com/course/web-development-beginners-to-advanced/",
+    "coupon_code": "EE88FC30160F405B6736",
+    "full_url": "https://www.udemy.com/course/web-development-beginners-to-advanced/?couponCode=EE88FC30160F405B6736",
+    "source": "discudemy.com"
   }
 ]
