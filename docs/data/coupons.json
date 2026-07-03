@@ -1054,5 +1054,82 @@
     "coupon_code": "EXCELMOJODATASKILLS",
     "full_url": "https://www.udemy.com/course/data-skills-for-finance-professionals/?couponCode=EXCELMOJODATASKILLS",
     "source": "discudemy.com"
+  },
+  {
+    "id": 97,
+    "status": "expired",
+    "found_at": "2026-07-03T06:32:58.227Z",
+    "last_checked": "2026-07-03T06:37:21.879Z",
+    "course_title": "AI PRODUCT MANAGER Skills for Agile: AI Product Management",
+    "course_url": "https://www.udemy.com/course/what-is-a-product-manager/",
+    "coupon_code": "030726_FREE",
+    "full_url": "https://www.udemy.com/course/what-is-a-product-manager/?couponCode=030726_FREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 98,
+    "status": "expired",
+    "found_at": "2026-07-03T06:33:11.876Z",
+    "last_checked": "2026-07-03T06:37:27.027Z",
+    "course_title": "The Complete SQL Bootcamp: A Step-by-Step Approach",
+    "course_url": "https://www.udemy.com/course/the-complete-sql-bootcamp-a-step-by-step-approach/",
+    "coupon_code": "LEARNSQL",
+    "full_url": "https://www.udemy.com/course/the-complete-sql-bootcamp-a-step-by-step-approach/?couponCode=LEARNSQL",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 99,
+    "status": "expired",
+    "found_at": "2026-07-03T06:33:25.360Z",
+    "last_checked": "2026-07-03T06:37:32.167Z",
+    "course_title": "Ultimate Digital Marketing 2025: SEO, Paid Ads, GTM, Web Dev",
+    "course_url": "https://www.udemy.com/course/linkedin-ads-hindi-masterclass-2023-campaigns-features/",
+    "coupon_code": "BDB430F320679DF14914",
+    "full_url": "https://www.udemy.com/course/linkedin-ads-hindi-masterclass-2023-campaigns-features/?couponCode=BDB430F320679DF14914",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 100,
+    "status": "expired",
+    "found_at": "2026-07-03T06:33:38.779Z",
+    "last_checked": "2026-07-03T06:37:37.314Z",
+    "course_title": "The Complete Jenkins DevOps CI/CD Pipeline Bootcamp - 2023",
+    "course_url": "https://www.udemy.com/course/continous-integration-jenkins-pipelines/",
+    "coupon_code": "B71A9F1C08DB21A73609",
+    "full_url": "https://www.udemy.com/course/continous-integration-jenkins-pipelines/?couponCode=B71A9F1C08DB21A73609",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 101,
+    "status": "expired",
+    "found_at": "2026-07-03T06:33:52.338Z",
+    "last_checked": "2026-07-03T06:37:42.481Z",
+    "course_title": "Google Ads MasterClass 2025: All Features & Campaign Setups",
+    "course_url": "https://www.udemy.com/course/google-ads-masterclass-2025-all-features-campaign-setups/",
+    "coupon_code": "8B32D7D7EAB339554EBE",
+    "full_url": "https://www.udemy.com/course/google-ads-masterclass-2025-all-features-campaign-setups/?couponCode=8B32D7D7EAB339554EBE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 102,
+    "status": "expired",
+    "found_at": "2026-07-03T06:34:05.842Z",
+    "last_checked": "2026-07-03T06:37:47.633Z",
+    "course_title": "Full Digital Marketing Course 2025: PPC, SEO, SMM, GTM, GA4",
+    "course_url": "https://www.udemy.com/course/full-digital-marketing-course-2025-ppc-seo-smm-gtm-ga4/",
+    "coupon_code": "75F4F3B66AD843612A02",
+    "full_url": "https://www.udemy.com/course/full-digital-marketing-course-2025-ppc-seo-smm-gtm-ga4/?couponCode=75F4F3B66AD843612A02",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 103,
+    "status": "expired",
+    "found_at": "2026-07-03T06:34:19.410Z",
+    "last_checked": "2026-07-03T06:37:52.776Z",
+    "course_title": "Master 11 Ad Platforms 2025: The Ultimate Paid Ads Course!",
+    "course_url": "https://www.udemy.com/course/master-11-ad-platforms-2025-the-ultimate-paid-ads-course/",
+    "coupon_code": "91E734D6D38E6748B211",
+    "full_url": "https://www.udemy.com/course/master-11-ad-platforms-2025-the-ultimate-paid-ads-course/?couponCode=91E734D6D38E6748B211",
+    "source": "discudemy.com"
   }
 ]
