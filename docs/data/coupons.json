@@ -438,5 +438,82 @@
     "coupon_code": "JULYFREE2026",
     "full_url": "https://www.udemy.com/course/selenium-in-c-sharp-taf-for-beginners-learnit/?couponCode=JULYFREE2026",
     "source": "discudemy.com"
+  },
+  {
+    "id": 41,
+    "status": "expired",
+    "found_at": "2026-07-04T15:05:15.103Z",
+    "last_checked": "2026-07-04T15:09:26.375Z",
+    "course_title": "Interface Windows User Commands From The Beginner To Admin",
+    "course_url": "https://www.udemy.com/course/interface-windows-user-commands-from-the-beginning-to-master/",
+    "coupon_code": "SALE-FREE-FREE-SALE",
+    "full_url": "https://www.udemy.com/course/interface-windows-user-commands-from-the-beginning-to-master/?couponCode=SALE-FREE-FREE-SALE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 42,
+    "status": "expired",
+    "found_at": "2026-07-04T15:05:28.019Z",
+    "last_checked": "2026-07-04T15:09:31.496Z",
+    "course_title": "Nmap Advanced Techniques Course A To Z On Network Scan 2026",
+    "course_url": "https://www.udemy.com/course/nmap-advanced-techniques-course-a-to-z-on-network-scan-2021/",
+    "coupon_code": "FREE-10-ONLY",
+    "full_url": "https://www.udemy.com/course/nmap-advanced-techniques-course-a-to-z-on-network-scan-2021/?couponCode=FREE-10-ONLY",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 43,
+    "status": "expired",
+    "found_at": "2026-07-04T15:05:40.810Z",
+    "last_checked": "2026-07-04T15:09:36.611Z",
+    "course_title": "Foundation Level With USB Rubber Ducky Now With Less Than 10",
+    "course_url": "https://www.udemy.com/course/make-a-usb-rubber-ducky-only-for-5-usd-instead-of-50-usd/",
+    "coupon_code": "SALE-FREE-FREE-SALE",
+    "full_url": "https://www.udemy.com/course/make-a-usb-rubber-ducky-only-for-5-usd-instead-of-50-usd/?couponCode=SALE-FREE-FREE-SALE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 44,
+    "status": "expired",
+    "found_at": "2026-07-04T15:05:53.621Z",
+    "last_checked": "2026-07-04T15:09:41.742Z",
+    "course_title": "Complete Linux Training Course to Get Your Ideal IT Job",
+    "course_url": "https://www.udemy.com/course/linux-full-course-and-some-tips-for-smart-linux-learning/",
+    "coupon_code": "SALE-FREE-FREE-SALE",
+    "full_url": "https://www.udemy.com/course/linux-full-course-and-some-tips-for-smart-linux-learning/?couponCode=SALE-FREE-FREE-SALE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 45,
+    "status": "expired",
+    "found_at": "2026-07-04T15:06:06.571Z",
+    "last_checked": "2026-07-04T15:09:46.863Z",
+    "course_title": "All-In-One Full Stack Web App DevOps - From Idea to Cloud",
+    "course_url": "https://www.udemy.com/course/full-stack-developer-toolkit-from-architecture-to-cloud-deployment/",
+    "coupon_code": "ARC_260701",
+    "full_url": "https://www.udemy.com/course/full-stack-developer-toolkit-from-architecture-to-cloud-deployment/?couponCode=ARC_260701",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 46,
+    "status": "expired",
+    "found_at": "2026-07-04T15:06:19.386Z",
+    "last_checked": "2026-07-04T15:09:51.994Z",
+    "course_title": "Mastering Operating Systems Unlocked: A Hands-On Guide",
+    "course_url": "https://www.udemy.com/course/mastering-operating-systems-unlocked-a-hands-on-guide/",
+    "coupon_code": "FREE-FREE",
+    "full_url": "https://www.udemy.com/course/mastering-operating-systems-unlocked-a-hands-on-guide/?couponCode=FREE-FREE",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 47,
+    "status": "expired",
+    "found_at": "2026-07-04T15:06:32.145Z",
+    "last_checked": "2026-07-04T15:09:57.113Z",
+    "course_title": "Be Professional With MetaSploit Framework Course MSF A To Z",
+    "course_url": "https://www.udemy.com/course/be-professional-with-metasploit-framework-course-msf-a-to-z/",
+    "coupon_code": "MSFPRO2026-FREE-ONLY",
+    "full_url": "https://www.udemy.com/course/be-professional-with-metasploit-framework-course-msf-a-to-z/?couponCode=MSFPRO2026-FREE-ONLY",
+    "source": "discudemy.com"
   }
 ]
