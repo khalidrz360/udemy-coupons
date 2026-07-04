@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "id": 1,
+    "status": "expired",
+    "found_at": "2026-07-04T11:26:44.231Z",
+    "last_checked": "2026-07-04T11:31:19.228Z",
+    "course_title": "Advanced Capcut Tutorial for Social Media Video Editing",
+    "course_url": "https://www.udemy.com/course/advanced-capcut-tutorial-for-social-media-video-editing/",
+    "coupon_code": "E6151F4EC36FC1C059C7",
+    "full_url": "https://www.udemy.com/course/advanced-capcut-tutorial-for-social-media-video-editing/?couponCode=E6151F4EC36FC1C059C7",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 2,
+    "status": "expired",
+    "found_at": "2026-07-04T11:26:57.874Z",
+    "last_checked": "2026-07-04T11:31:24.348Z",
+    "course_title": "Complete Microsoft Office Masterclass Word Excel PowerPoint",
+    "course_url": "https://www.udemy.com/course/complete-microsoft-office-masterclass-word-excel-powerpoint/",
+    "coupon_code": "1AF8E1A6D8BB024F9688",
+    "full_url": "https://www.udemy.com/course/complete-microsoft-office-masterclass-word-excel-powerpoint/?couponCode=1AF8E1A6D8BB024F9688",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 3,
+    "status": "expired",
+    "found_at": "2026-07-04T11:27:11.553Z",
+    "last_checked": "2026-07-04T11:31:29.471Z",
+    "course_title": "Python Game Development and App Programming Masterclass",
+    "course_url": "https://www.udemy.com/course/python-game-development-and-app-programming-masterclass/",
+    "coupon_code": "BD75692F6E27D0BF3E78",
+    "full_url": "https://www.udemy.com/course/python-game-development-and-app-programming-masterclass/?couponCode=BD75692F6E27D0BF3E78",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 4,
+    "status": "expired",
+    "found_at": "2026-07-04T11:27:25.566Z",
+    "last_checked": "2026-07-04T11:31:34.597Z",
+    "course_title": "Learn Microsoft Office with ChatGPT Gemini and Copilot",
+    "course_url": "https://www.udemy.com/course/learn-microsoft-office-with-chatgpt-gemini-and-copilot/",
+    "coupon_code": "FAB0ADEF9E1D893668A9",
+    "full_url": "https://www.udemy.com/course/learn-microsoft-office-with-chatgpt-gemini-and-copilot/?couponCode=FAB0ADEF9E1D893668A9",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 5,
+    "status": "expired",
+    "found_at": "2026-07-04T11:27:39.342Z",
+    "last_checked": "2026-07-04T11:31:39.722Z",
+    "course_title": "MS Office with AI - Word Excel PowerPoint ChatGpt Gemini",
+    "course_url": "https://www.udemy.com/course/ms-office-with-ai-word-excel-powerpoint-chatgpt-gemini/",
+    "coupon_code": "44E7E025838333CA60AD",
+    "full_url": "https://www.udemy.com/course/ms-office-with-ai-word-excel-powerpoint-chatgpt-gemini/?couponCode=44E7E025838333CA60AD",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 6,
+    "status": "expired",
+    "found_at": "2026-07-04T11:27:53.075Z",
+    "last_checked": "2026-07-04T11:31:44.851Z",
+    "course_title": "MS Office With Canva Word Excel PowerPoint Canva All  in One",
+    "course_url": "https://www.udemy.com/course/ms-office-with-canva-word-excel-powerpoint-canva-all-in-one/",
+    "coupon_code": "E9206F561A1EEEE20CD5",
+    "full_url": "https://www.udemy.com/course/ms-office-with-canva-word-excel-powerpoint-canva-all-in-one/?couponCode=E9206F561A1EEEE20CD5",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 7,
+    "status": "expired",
+    "found_at": "2026-07-04T11:28:06.679Z",
+    "last_checked": "2026-07-04T11:31:49.978Z",
+    "course_title": "AWS Hands-On Guide: Build and Deploy Full Cloud Architecture",
+    "course_url": "https://www.udemy.com/course/aws-hands-on-guide-build-and-deploy-full-cloud-architecture/",
+    "coupon_code": "FE0B19CABD3EAFE97619",
+    "full_url": "https://www.udemy.com/course/aws-hands-on-guide-build-and-deploy-full-cloud-architecture/?couponCode=FE0B19CABD3EAFE97619",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 8,
+    "status": "expired",
+    "found_at": "2026-07-04T11:28:20.382Z",
+    "last_checked": "2026-07-04T11:31:55.098Z",
+    "course_title": "Web Hacking For Beginners",
+    "course_url": "https://www.udemy.com/course/web-hacking-for-beginners/",
+    "coupon_code": "68BEC871780C88EBF74A",
+    "full_url": "https://www.udemy.com/course/web-hacking-for-beginners/?couponCode=68BEC871780C88EBF74A",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 9,
+    "status": "expired",
+    "found_at": "2026-07-04T11:28:35.784Z",
+    "last_checked": "2026-07-04T11:32:00.231Z",
+    "course_title": "Metasploit from Scratch: Beginner to Professional",
+    "course_url": "https://www.udemy.com/course/metasploit-from-scratch-beginner-to-professional/",
+    "coupon_code": "8D17914547B8693A0715",
+    "full_url": "https://www.udemy.com/course/metasploit-from-scratch-beginner-to-professional/?couponCode=8D17914547B8693A0715",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 10,
+    "status": "expired",
+    "found_at": "2026-07-04T11:28:49.490Z",
+    "last_checked": "2026-07-04T11:32:05.355Z",
+    "course_title": "Quick Start to AI and Agentic AI : Real World Apps using n8n",
+    "course_url": "https://www.udemy.com/course/quick-start-to-ai-and-agentic-ai-real-world-apps-using-n8n/",
+    "coupon_code": "747346FF308786891495",
+    "full_url": "https://www.udemy.com/course/quick-start-to-ai-and-agentic-ai-real-world-apps-using-n8n/?couponCode=747346FF308786891495",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 11,
+    "status": "expired",
+    "found_at": "2026-07-04T11:29:03.703Z",
+    "last_checked": "2026-07-04T11:32:10.466Z",
+    "course_title": "PHP with MySQL: Build 5 PHP and MySQL Projects",
+    "course_url": "https://www.udemy.com/course/php-with-mysql-2022-build-5-php-and-mysql-projects/",
+    "coupon_code": "PHPWITHMYSQL79",
+    "full_url": "https://www.udemy.com/course/php-with-mysql-2022-build-5-php-and-mysql-projects/?couponCode=PHPWITHMYSQL79",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 12,
+    "status": "expired",
+    "found_at": "2026-07-04T11:29:17.325Z",
+    "last_checked": "2026-07-04T11:32:15.580Z",
+    "course_title": "AI for Leadership & Leadership Development Excellence",
+    "course_url": "https://www.udemy.com/course/ai-for-leadership-leadership-development-excellence/",
+    "coupon_code": "0BC5FB814A2FB6CA3CEA",
+    "full_url": "https://www.udemy.com/course/ai-for-leadership-leadership-development-excellence/?couponCode=0BC5FB814A2FB6CA3CEA",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 13,
+    "status": "expired",
+    "found_at": "2026-07-04T11:29:31.064Z",
+    "last_checked": "2026-07-04T11:32:20.693Z",
+    "course_title": "The 3C’s to Become an AI-Ready Project Manager",
+    "course_url": "https://www.udemy.com/course/the-3cs-to-become-an-ai-ready-project-manager/",
+    "coupon_code": "FOURTHJULY",
+    "full_url": "https://www.udemy.com/course/the-3cs-to-become-an-ai-ready-project-manager/?couponCode=FOURTHJULY",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 14,
+    "status": "expired",
+    "found_at": "2026-07-04T11:29:44.868Z",
+    "last_checked": "2026-07-04T11:32:25.807Z",
+    "course_title": "How to Jumpstart your Project Management career in Hindi",
+    "course_url": "https://www.udemy.com/course/how-to-jumpstart-your-project-management-career-in-hindi/",
+    "coupon_code": "FOURTHJULY",
+    "full_url": "https://www.udemy.com/course/how-to-jumpstart-your-project-management-career-in-hindi/?couponCode=FOURTHJULY",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 15,
+    "status": "expired",
+    "found_at": "2026-07-04T11:29:59.377Z",
+    "last_checked": "2026-07-04T11:32:30.928Z",
+    "course_title": "How to Add Value in the Project Management Role",
+    "course_url": "https://www.udemy.com/course/how-to-add-value-in-the-project-management-role/",
+    "coupon_code": "FOURTHJULY",
+    "full_url": "https://www.udemy.com/course/how-to-add-value-in-the-project-management-role/?couponCode=FOURTHJULY",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 16,
+    "status": "expired",
+    "found_at": "2026-07-04T11:30:13.796Z",
+    "last_checked": "2026-07-04T11:32:36.044Z",
+    "course_title": "Jumpstart your Project Management career",
+    "course_url": "https://www.udemy.com/course/jumpstart-your-project-management-career/",
+    "coupon_code": "FOURTHJULY",
+    "full_url": "https://www.udemy.com/course/jumpstart-your-project-management-career/?couponCode=FOURTHJULY",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 17,
+    "status": "expired",
+    "found_at": "2026-07-04T11:30:27.686Z",
+    "last_checked": "2026-07-04T11:32:41.164Z",
+    "course_title": "AI for Verbal & Non-Verbal Communication Excellence",
+    "course_url": "https://www.udemy.com/course/ai-for-verbal-non-verbal-communication-excellence/",
+    "coupon_code": "70CDD930FE1B82F455EC",
+    "full_url": "https://www.udemy.com/course/ai-for-verbal-non-verbal-communication-excellence/?couponCode=70CDD930FE1B82F455EC",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 18,
+    "status": "expired",
+    "found_at": "2026-07-04T11:30:41.738Z",
+    "last_checked": "2026-07-04T11:32:46.278Z",
+    "course_title": "Mastering Microsoft Word for Everyone: A Step by Step Guide",
+    "course_url": "https://www.udemy.com/course/mastering-microsoft-word-for-everyone-a-step-by-step-guide/",
+    "coupon_code": "ACCAC4FEDF614E5729A3",
+    "full_url": "https://www.udemy.com/course/mastering-microsoft-word-for-everyone-a-step-by-step-guide/?couponCode=ACCAC4FEDF614E5729A3",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 19,
+    "status": "expired",
+    "found_at": "2026-07-04T11:30:55.761Z",
+    "last_checked": "2026-07-04T11:32:51.392Z",
+    "course_title": "MS PowerPoint Course: Present with Confidence & Creativity",
+    "course_url": "https://www.udemy.com/course/ms-powerpoint-course-present-with-confidence-creativity/",
+    "coupon_code": "AF1BE3042AF08A3F843B",
+    "full_url": "https://www.udemy.com/course/ms-powerpoint-course-present-with-confidence-creativity/?couponCode=AF1BE3042AF08A3F843B",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 20,
+    "status": "expired",
+    "found_at": "2026-07-04T11:31:09.621Z",
+    "last_checked": "2026-07-04T11:32:56.512Z",
+    "course_title": "Premiere Pro Masterclass: Beginner to Advanced Video Editing",
+    "course_url": "https://www.udemy.com/course/premiere-pro-masterclass-beginner-to-advanced-video-editing/",
+    "coupon_code": "C61A3C89990F165442AE",
+    "full_url": "https://www.udemy.com/course/premiere-pro-masterclass-beginner-to-advanced-video-editing/?couponCode=C61A3C89990F165442AE",
+    "source": "discudemy.com"
+  }
+]
