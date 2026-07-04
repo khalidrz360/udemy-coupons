@@ -647,5 +647,82 @@
     "coupon_code": "JULIO0701",
     "full_url": "https://www.udemy.com/course/directorio-de-plugins-para-wordpress/?couponCode=JULIO0701",
     "source": "discudemy.com"
+  },
+  {
+    "id": 60,
+    "status": "expired",
+    "found_at": "2026-07-04T19:11:49.012Z",
+    "last_checked": "2026-07-04T19:16:03.901Z",
+    "course_title": "Passive Earn with AI Tools: Unlock Automated Income Streams",
+    "course_url": "https://www.udemy.com/course/passiveearn/",
+    "coupon_code": "594FCEF4238507900317",
+    "full_url": "https://www.udemy.com/course/passiveearn/?couponCode=594FCEF4238507900317",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 61,
+    "status": "expired",
+    "found_at": "2026-07-04T19:12:02.045Z",
+    "last_checked": "2026-07-04T19:16:09.080Z",
+    "course_title": "Executive Diploma in Human Resources Management (HRM)",
+    "course_url": "https://www.udemy.com/course/humanresourceshrm/",
+    "coupon_code": "351E93547062FBDDE5C8",
+    "full_url": "https://www.udemy.com/course/humanresourceshrm/?couponCode=351E93547062FBDDE5C8",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 62,
+    "status": "expired",
+    "found_at": "2026-07-04T19:12:15.117Z",
+    "last_checked": "2026-07-04T19:16:14.266Z",
+    "course_title": "Professional Diploma in Project Management",
+    "course_url": "https://www.udemy.com/course/projectmanagementdiploma/",
+    "coupon_code": "AD4A8F6FF3572777809C",
+    "full_url": "https://www.udemy.com/course/projectmanagementdiploma/?couponCode=AD4A8F6FF3572777809C",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 63,
+    "status": "expired",
+    "found_at": "2026-07-04T19:12:28.071Z",
+    "last_checked": "2026-07-04T19:16:19.460Z",
+    "course_title": "Professional Diploma in Procurement",
+    "course_url": "https://www.udemy.com/course/procurementdiploma/",
+    "coupon_code": "83753B5BE96D5EEDE22B",
+    "full_url": "https://www.udemy.com/course/procurementdiploma/?couponCode=83753B5BE96D5EEDE22B",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 64,
+    "status": "expired",
+    "found_at": "2026-07-04T19:12:41.096Z",
+    "last_checked": "2026-07-04T19:16:24.619Z",
+    "course_title": "Professional Diploma in Warehouse Management",
+    "course_url": "https://www.udemy.com/course/warehousemanagement/",
+    "coupon_code": "5A9A0219F9A3B01D5C36",
+    "full_url": "https://www.udemy.com/course/warehousemanagement/?couponCode=5A9A0219F9A3B01D5C36",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 65,
+    "status": "expired",
+    "found_at": "2026-07-04T19:12:54.077Z",
+    "last_checked": "2026-07-04T19:16:29.787Z",
+    "course_title": "Professional Diploma in Supply Chain Management",
+    "course_url": "https://www.udemy.com/course/supplychainmanagement/",
+    "coupon_code": "CBE2F21546576CFBBFA3",
+    "full_url": "https://www.udemy.com/course/supplychainmanagement/?couponCode=CBE2F21546576CFBBFA3",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 66,
+    "status": "expired",
+    "found_at": "2026-07-04T19:13:07.131Z",
+    "last_checked": "2026-07-04T19:16:34.958Z",
+    "course_title": "Aprende a crear Minimal APIs con .Net + Swagger + SQL Server",
+    "course_url": "https://www.udemy.com/course/aprende-a-crear-minimal-apis-con-net-swagger-sql-server/",
+    "coupon_code": "56E61479873FA59A6352",
+    "full_url": "https://www.udemy.com/course/aprende-a-crear-minimal-apis-con-net-swagger-sql-server/?couponCode=56E61479873FA59A6352",
+    "source": "discudemy.com"
   }
 ]
