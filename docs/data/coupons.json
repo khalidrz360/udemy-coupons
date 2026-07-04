@@ -724,5 +724,38 @@
     "coupon_code": "56E61479873FA59A6352",
     "full_url": "https://www.udemy.com/course/aprende-a-crear-minimal-apis-con-net-swagger-sql-server/?couponCode=56E61479873FA59A6352",
     "source": "discudemy.com"
+  },
+  {
+    "id": 67,
+    "status": "expired",
+    "found_at": "2026-07-04T20:57:14.306Z",
+    "last_checked": "2026-07-04T21:01:48.280Z",
+    "course_title": "Motivation et Équilibre Émotionnel : Crée ta Journée Parfait",
+    "course_url": "https://www.udemy.com/course/equilibre-emotionnel/",
+    "coupon_code": "3D3C898E812A2DA74629",
+    "full_url": "https://www.udemy.com/course/equilibre-emotionnel/?couponCode=3D3C898E812A2DA74629",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 68,
+    "status": "expired",
+    "found_at": "2026-07-04T20:57:28.178Z",
+    "last_checked": "2026-07-04T21:01:53.407Z",
+    "course_title": "ÉVITER L'ÉCHEC : Le système qui maximalise la réussite",
+    "course_url": "https://www.udemy.com/course/ne-plus-echouer/",
+    "coupon_code": "0DB57F1C291359C88FC3",
+    "full_url": "https://www.udemy.com/course/ne-plus-echouer/?couponCode=0DB57F1C291359C88FC3",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 69,
+    "status": "expired",
+    "found_at": "2026-07-04T20:57:42.027Z",
+    "last_checked": "2026-07-04T21:01:58.520Z",
+    "course_title": "AI & Cyber Security Mastery 2025",
+    "course_url": "https://www.udemy.com/course/ai-cyber-security-mastery/",
+    "coupon_code": "388A9316B196AD55AF48",
+    "full_url": "https://www.udemy.com/course/ai-cyber-security-mastery/?couponCode=388A9316B196AD55AF48",
+    "source": "discudemy.com"
   }
 ]
