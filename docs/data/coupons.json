@@ -1505,5 +1505,93 @@
     "coupon_code": "2694B040F1C66EB534EE",
     "full_url": "https://www.udemy.com/course/hands-on-python-machine-learning-with-real-world-projects/?couponCode=2694B040F1C66EB534EE",
     "source": "discudemy.com"
+  },
+  {
+    "id": 138,
+    "status": "expired",
+    "found_at": "2026-07-05T14:42:59.501Z",
+    "last_checked": "2026-07-05T14:47:04.640Z",
+    "course_title": "Bootcamp AI-901: Microsoft Azure AI Fundamentals Course",
+    "course_url": "https://www.udemy.com/course/bootcamp-ai-901-microsoft-azure-ai-fundamentals-course/",
+    "coupon_code": "A3BC87BDA57ABAA26288",
+    "full_url": "https://www.udemy.com/course/bootcamp-ai-901-microsoft-azure-ai-fundamentals-course/?couponCode=A3BC87BDA57ABAA26288",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 139,
+    "status": "expired",
+    "found_at": "2026-07-05T14:43:11.991Z",
+    "last_checked": "2026-07-05T14:47:09.810Z",
+    "course_title": "Internal Auditing: Principles, Practices, and Applications",
+    "course_url": "https://www.udemy.com/course/internal-auditing-principles-practices-and-applications/",
+    "coupon_code": "0ABC4EECF4039FD42711",
+    "full_url": "https://www.udemy.com/course/internal-auditing-principles-practices-and-applications/?couponCode=0ABC4EECF4039FD42711",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 140,
+    "status": "expired",
+    "found_at": "2026-07-05T14:43:24.929Z",
+    "last_checked": "2026-07-05T14:47:14.941Z",
+    "course_title": "Bank Reconciliation: From Fundamentals to Advanced Technique",
+    "course_url": "https://www.udemy.com/course/bank-reconciliation-from-fundamentals-to-advanced-technique/",
+    "coupon_code": "A039B70DFD3BF5C3950A",
+    "full_url": "https://www.udemy.com/course/bank-reconciliation-from-fundamentals-to-advanced-technique/?couponCode=A039B70DFD3BF5C3950A",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 141,
+    "status": "expired",
+    "found_at": "2026-07-05T14:43:37.414Z",
+    "last_checked": "2026-07-05T14:47:20.092Z",
+    "course_title": "DCF Valuation: Complete Course with Startup Valuation Case.",
+    "course_url": "https://www.udemy.com/course/dcf-valuation-complete-course/",
+    "coupon_code": "D049580369942D1EC6F2",
+    "full_url": "https://www.udemy.com/course/dcf-valuation-complete-course/?couponCode=D049580369942D1EC6F2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 142,
+    "status": "expired",
+    "found_at": "2026-07-05T14:43:49.994Z",
+    "last_checked": "2026-07-05T14:47:25.218Z",
+    "course_title": "Revenue Recognition under IFRS 15 & ASC 606",
+    "course_url": "https://www.udemy.com/course/revenue-recognition-under-ifrs-15-asc-606/",
+    "coupon_code": "872A906400B1AAE2F872",
+    "full_url": "https://www.udemy.com/course/revenue-recognition-under-ifrs-15-asc-606/?couponCode=872A906400B1AAE2F872",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 143,
+    "status": "expired",
+    "found_at": "2026-07-05T14:44:02.556Z",
+    "last_checked": "2026-07-05T14:47:30.350Z",
+    "course_title": "Cost Accounting: Fundamentals to Advanced with Excel Cases.",
+    "course_url": "https://www.udemy.com/course/cost-accounting-from-fundamentals-to-advanced-analysis/",
+    "coupon_code": "47361C9D9FB34F6C43FB",
+    "full_url": "https://www.udemy.com/course/cost-accounting-from-fundamentals-to-advanced-analysis/?couponCode=47361C9D9FB34F6C43FB",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 144,
+    "status": "expired",
+    "found_at": "2026-07-05T14:44:15.172Z",
+    "last_checked": "2026-07-05T14:47:35.477Z",
+    "course_title": "Ethical Hacking Practical Cert Bootcamp – Real Hands-On Labs",
+    "course_url": "https://www.udemy.com/course/ethical-hacker-practical/",
+    "coupon_code": "2CA59511C58B57D96160",
+    "full_url": "https://www.udemy.com/course/ethical-hacker-practical/?couponCode=2CA59511C58B57D96160",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 145,
+    "status": "expired",
+    "found_at": "2026-07-05T14:44:27.717Z",
+    "last_checked": "2026-07-05T14:47:40.608Z",
+    "course_title": "Getting Started with Generative AI: Unboxing the Future",
+    "course_url": "https://www.udemy.com/course/artificial-intelligence-for-beginners-b/",
+    "coupon_code": "4E7E5AC918E26D3D8016",
+    "full_url": "https://www.udemy.com/course/artificial-intelligence-for-beginners-b/?couponCode=4E7E5AC918E26D3D8016",
+    "source": "discudemy.com"
   }
 ]
