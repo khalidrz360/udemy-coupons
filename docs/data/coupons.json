@@ -1593,5 +1593,27 @@
     "coupon_code": "4E7E5AC918E26D3D8016",
     "full_url": "https://www.udemy.com/course/artificial-intelligence-for-beginners-b/?couponCode=4E7E5AC918E26D3D8016",
     "source": "discudemy.com"
+  },
+  {
+    "id": 146,
+    "status": "expired",
+    "found_at": "2026-07-05T16:08:15.156Z",
+    "last_checked": "2026-07-05T16:12:44.839Z",
+    "course_title": "Mastering Project Scheduling and Controlling -  Full Diploma",
+    "course_url": "https://www.udemy.com/course/mastering-project-scheduling-and-controlling-full-diploma/",
+    "coupon_code": "7C1CAAC7E331263BDE97",
+    "full_url": "https://www.udemy.com/course/mastering-project-scheduling-and-controlling-full-diploma/?couponCode=7C1CAAC7E331263BDE97",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 147,
+    "status": "expired",
+    "found_at": "2026-07-05T16:08:28.786Z",
+    "last_checked": "2026-07-05T16:12:49.960Z",
+    "course_title": "Computer Engineering Mastery: From Beginner to Expert!",
+    "course_url": "https://www.udemy.com/course/computer-engineering-mastery-from-beginner-to-expert/",
+    "coupon_code": "78309485D778A2DAB429",
+    "full_url": "https://www.udemy.com/course/computer-engineering-mastery-from-beginner-to-expert/?couponCode=78309485D778A2DAB429",
+    "source": "discudemy.com"
   }
 ]
