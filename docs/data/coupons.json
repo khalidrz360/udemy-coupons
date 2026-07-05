@@ -757,5 +757,16 @@
     "coupon_code": "388A9316B196AD55AF48",
     "full_url": "https://www.udemy.com/course/ai-cyber-security-mastery/?couponCode=388A9316B196AD55AF48",
     "source": "discudemy.com"
+  },
+  {
+    "id": 70,
+    "status": "expired",
+    "found_at": "2026-07-05T00:01:02.081Z",
+    "last_checked": "2026-07-05T00:05:13.030Z",
+    "course_title": "Python: Zero to Professional",
+    "course_url": "https://www.udemy.com/course/python-zero-to-professional/",
+    "coupon_code": "FREEJULY2026",
+    "full_url": "https://www.udemy.com/course/python-zero-to-professional/?couponCode=FREEJULY2026",
+    "source": "discudemy.com"
   }
 ]
