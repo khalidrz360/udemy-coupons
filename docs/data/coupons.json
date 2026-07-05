@@ -1417,5 +1417,93 @@
     "coupon_code": "3949BB4340880585ECD2",
     "full_url": "https://www.udemy.com/course/python-101-complete-python-programming-step-by-step-guide/?couponCode=3949BB4340880585ECD2",
     "source": "discudemy.com"
+  },
+  {
+    "id": 130,
+    "status": "expired",
+    "found_at": "2026-07-05T12:15:56.654Z",
+    "last_checked": "2026-07-05T12:20:01.677Z",
+    "course_title": "Instagram Marketing Bootcamp: From Zero to Hero",
+    "course_url": "https://www.udemy.com/course/instagram-marketing-bootcamp-from-zero-to-hero/",
+    "coupon_code": "FA70415C22F553DBA054",
+    "full_url": "https://www.udemy.com/course/instagram-marketing-bootcamp-from-zero-to-hero/?couponCode=FA70415C22F553DBA054",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 131,
+    "status": "expired",
+    "found_at": "2026-07-05T12:16:09.240Z",
+    "last_checked": "2026-07-05T12:20:06.822Z",
+    "course_title": "AI Masteclass - ChatGPT Gemini Midjourney Stable Diffusion",
+    "course_url": "https://www.udemy.com/course/ai-masteclass-chatgpt-gemini-midjourney-stable-diffusion/",
+    "coupon_code": "705343C9A85D9A8FC9D1",
+    "full_url": "https://www.udemy.com/course/ai-masteclass-chatgpt-gemini-midjourney-stable-diffusion/?couponCode=705343C9A85D9A8FC9D1",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 132,
+    "status": "expired",
+    "found_at": "2026-07-05T12:16:21.773Z",
+    "last_checked": "2026-07-05T12:20:11.938Z",
+    "course_title": "Logo Design Essentials: Photoshop & Illustrator",
+    "course_url": "https://www.udemy.com/course/logo-design-essentials-photoshop-illustrator/",
+    "coupon_code": "1CF1678465BF2E06973B",
+    "full_url": "https://www.udemy.com/course/logo-design-essentials-photoshop-illustrator/?couponCode=1CF1678465BF2E06973B",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 133,
+    "status": "expired",
+    "found_at": "2026-07-05T12:16:34.345Z",
+    "last_checked": "2026-07-05T12:20:17.057Z",
+    "course_title": "Master of Essential C++ Programming Beginner to Advanced",
+    "course_url": "https://www.udemy.com/course/master-of-essential-c-programming-beginner-to-advanced/",
+    "coupon_code": "BA5A7A925396B0AE265C",
+    "full_url": "https://www.udemy.com/course/master-of-essential-c-programming-beginner-to-advanced/?couponCode=BA5A7A925396B0AE265C",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 134,
+    "status": "expired",
+    "found_at": "2026-07-05T12:16:46.913Z",
+    "last_checked": "2026-07-05T12:20:22.170Z",
+    "course_title": "JavaScript Fundamentals to Advanced: Full Stack Development",
+    "course_url": "https://www.udemy.com/course/javascript-fundamentals-to-advanced-full-stack-development/",
+    "coupon_code": "932C7D3198ECC02C6787",
+    "full_url": "https://www.udemy.com/course/javascript-fundamentals-to-advanced-full-stack-development/?couponCode=932C7D3198ECC02C6787",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 135,
+    "status": "expired",
+    "found_at": "2026-07-05T12:16:59.456Z",
+    "last_checked": "2026-07-05T12:20:27.296Z",
+    "course_title": "MS Excel Masterclass for Job Seekers Accounting Success",
+    "course_url": "https://www.udemy.com/course/ms-excel-masterclass-for-job-seekers-accounting-success/",
+    "coupon_code": "F4CECE7EB58C4E38D1BB",
+    "full_url": "https://www.udemy.com/course/ms-excel-masterclass-for-job-seekers-accounting-success/?couponCode=F4CECE7EB58C4E38D1BB",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 136,
+    "status": "expired",
+    "found_at": "2026-07-05T12:17:11.974Z",
+    "last_checked": "2026-07-05T12:20:32.422Z",
+    "course_title": "Hands On Python Data Science - Data Science Bootcamp",
+    "course_url": "https://www.udemy.com/course/hands-on-python-data-science-data-science-bootcamp/",
+    "coupon_code": "10EAF3BB89DD30B57A37",
+    "full_url": "https://www.udemy.com/course/hands-on-python-data-science-data-science-bootcamp/?couponCode=10EAF3BB89DD30B57A37",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 137,
+    "status": "expired",
+    "found_at": "2026-07-05T12:17:24.502Z",
+    "last_checked": "2026-07-05T12:20:37.537Z",
+    "course_title": "Hands-On Python Machine Learning with Real World Projects",
+    "course_url": "https://www.udemy.com/course/hands-on-python-machine-learning-with-real-world-projects/",
+    "coupon_code": "2694B040F1C66EB534EE",
+    "full_url": "https://www.udemy.com/course/hands-on-python-machine-learning-with-real-world-projects/?couponCode=2694B040F1C66EB534EE",
+    "source": "discudemy.com"
   }
 ]
