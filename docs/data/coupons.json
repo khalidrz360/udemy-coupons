@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "id": 1,
+    "status": "expired",
+    "found_at": "2026-07-05T17:05:01.164Z",
+    "last_checked": "2026-07-05T17:09:15.507Z",
+    "course_title": "ÉVITER L'ÉCHEC : Le système qui maximalise la réussite",
+    "course_url": "https://www.udemy.com/course/ne-plus-echouer/",
+    "coupon_code": "380E8929BC965834709A",
+    "full_url": "https://www.udemy.com/course/ne-plus-echouer/?couponCode=380E8929BC965834709A",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 2,
+    "status": "expired",
+    "found_at": "2026-07-05T17:05:14.061Z",
+    "last_checked": "2026-07-05T17:09:20.639Z",
+    "course_title": "Motivation et Équilibre Émotionnel : Crée ta Journée Parfait",
+    "course_url": "https://www.udemy.com/course/equilibre-emotionnel/",
+    "coupon_code": "C74C9EEE5B50319B9E5D",
+    "full_url": "https://www.udemy.com/course/equilibre-emotionnel/?couponCode=C74C9EEE5B50319B9E5D",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 3,
+    "status": "expired",
+    "found_at": "2026-07-05T17:05:26.912Z",
+    "last_checked": "2026-07-05T17:09:25.770Z",
+    "course_title": "Complete Salesforce Administrator Masterclass Training 2026",
+    "course_url": "https://www.udemy.com/course/complete-salesforce-administrator-masterclass-training-2026/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/complete-salesforce-administrator-masterclass-training-2026/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 4,
+    "status": "expired",
+    "found_at": "2026-07-05T17:05:39.808Z",
+    "last_checked": "2026-07-05T17:09:30.891Z",
+    "course_title": "Become a Python Full Stack Developer from Zero to Hero 2026",
+    "course_url": "https://www.udemy.com/course/full-stack-python-with-generative-and-agentic-ai/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/full-stack-python-with-generative-and-agentic-ai/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 5,
+    "status": "expired",
+    "found_at": "2026-07-05T17:05:53.623Z",
+    "last_checked": "2026-07-05T17:09:36.025Z",
+    "course_title": "Mastering MySQL: From Beginner to Advanced",
+    "course_url": "https://www.udemy.com/course/mastering-mysql-from-beginner-to-advanced/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/mastering-mysql-from-beginner-to-advanced/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 6,
+    "status": "expired",
+    "found_at": "2026-07-05T17:06:06.515Z",
+    "last_checked": "2026-07-05T17:09:41.159Z",
+    "course_title": "Mastering Azure DevOps: From Beginner to Advanced",
+    "course_url": "https://www.udemy.com/course/mastering-azure-devops-from-beginner-to-advanced/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/mastering-azure-devops-from-beginner-to-advanced/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 7,
+    "status": "expired",
+    "found_at": "2026-07-05T17:06:19.520Z",
+    "last_checked": "2026-07-05T17:09:46.290Z",
+    "course_title": "All-In-One Full Stack Web App DevOps - From Idea to Cloud",
+    "course_url": "https://www.udemy.com/course/full-stack-developer-toolkit-from-architecture-to-cloud-deployment/",
+    "coupon_code": "ARC_260702",
+    "full_url": "https://www.udemy.com/course/full-stack-developer-toolkit-from-architecture-to-cloud-deployment/?couponCode=ARC_260702",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 8,
+    "status": "expired",
+    "found_at": "2026-07-05T17:06:32.395Z",
+    "last_checked": "2026-07-05T17:09:51.426Z",
+    "course_title": "Web Development: HTML, CSS, JavaScript, Bootstrap, React JS",
+    "course_url": "https://www.udemy.com/course/full-stack-web-development-html-css-javascript-bootstrap-react-js/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/full-stack-web-development-html-css-javascript-bootstrap-react-js/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 9,
+    "status": "expired",
+    "found_at": "2026-07-05T17:06:45.283Z",
+    "last_checked": "2026-07-05T17:09:56.552Z",
+    "course_title": "Google Ads Mastery: From Beginner to Advanced 2026",
+    "course_url": "https://www.udemy.com/course/google-ads-mastery-from-beginner-to-advanced-d/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/google-ads-mastery-from-beginner-to-advanced-d/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 10,
+    "status": "expired",
+    "found_at": "2026-07-05T17:06:58.155Z",
+    "last_checked": "2026-07-05T17:10:01.680Z",
+    "course_title": "Mastering SEO: From Beginner to Pro in Digital Marketing",
+    "course_url": "https://www.udemy.com/course/mastering-seo-from-beginner-to-pro-in-digital-marketing/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/mastering-seo-from-beginner-to-pro-in-digital-marketing/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 11,
+    "status": "expired",
+    "found_at": "2026-07-05T17:07:11.848Z",
+    "last_checked": "2026-07-05T17:10:06.817Z",
+    "course_title": "Mastering Servicenow Human Resources Service Delivery 2026",
+    "course_url": "https://www.udemy.com/course/mastering-servicenow-human-resources-service-delivery-hrsd/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/mastering-servicenow-human-resources-service-delivery-hrsd/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 12,
+    "status": "expired",
+    "found_at": "2026-07-05T17:07:24.699Z",
+    "last_checked": "2026-07-05T17:10:11.948Z",
+    "course_title": "ServiceNow Catalog Item and Record Producer, Workflow, Flows",
+    "course_url": "https://www.udemy.com/course/servicenow-catalog-item-and-record-producer-workflow-flows/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/servicenow-catalog-item-and-record-producer-workflow-flows/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 13,
+    "status": "expired",
+    "found_at": "2026-07-05T17:07:37.623Z",
+    "last_checked": "2026-07-05T17:10:17.081Z",
+    "course_title": "ServiceNow Scripting Mastery: Advanced Development",
+    "course_url": "https://www.udemy.com/course/servicenow-scripting-mastery-advanced-development/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/servicenow-scripting-mastery-advanced-development/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 14,
+    "status": "expired",
+    "found_at": "2026-07-05T17:07:50.531Z",
+    "last_checked": "2026-07-05T17:10:22.205Z",
+    "course_title": "Mastering Complete ServiceNow Administration Course!",
+    "course_url": "https://www.udemy.com/course/mastering-servicenow-administration-from-basics-to-expert/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/mastering-servicenow-administration-from-basics-to-expert/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 15,
+    "status": "expired",
+    "found_at": "2026-07-05T17:08:03.409Z",
+    "last_checked": "2026-07-05T17:10:27.335Z",
+    "course_title": "Mastering ServiceNow Admin&Development From Beginner to Pro",
+    "course_url": "https://www.udemy.com/course/total-servicenow-developer-and-admin-course-with-javascript/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/total-servicenow-developer-and-admin-course-with-javascript/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 16,
+    "status": "expired",
+    "found_at": "2026-07-05T17:08:16.312Z",
+    "last_checked": "2026-07-05T17:10:32.461Z",
+    "course_title": "ServiceNow Integrations for ServiceNow Professionals",
+    "course_url": "https://www.udemy.com/course/servicenow-integrations-explained-in-detail/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/servicenow-integrations-explained-in-detail/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 17,
+    "status": "expired",
+    "found_at": "2026-07-05T17:08:29.195Z",
+    "last_checked": "2026-07-05T17:10:37.586Z",
+    "course_title": "HTML, CSS for freshers!",
+    "course_url": "https://www.udemy.com/course/html-like-never-before/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/html-like-never-before/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 18,
+    "status": "expired",
+    "found_at": "2026-07-05T17:08:42.829Z",
+    "last_checked": "2026-07-05T17:10:42.707Z",
+    "course_title": "Javascript for freshers!!",
+    "course_url": "https://www.udemy.com/course/javascript-like-never-before/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/javascript-like-never-before/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 19,
+    "status": "expired",
+    "found_at": "2026-07-05T17:08:55.711Z",
+    "last_checked": "2026-07-05T17:10:47.825Z",
+    "course_title": "ServiceNow Mock Interviews, 500 Interview Questions",
+    "course_url": "https://www.udemy.com/course/servicenow-mock-interviews-interview-questions/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/servicenow-mock-interviews-interview-questions/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  },
+  {
+    "id": 20,
+    "status": "expired",
+    "found_at": "2026-07-05T17:09:08.589Z",
+    "last_checked": "2026-07-05T17:10:52.955Z",
+    "course_title": "ServiceNow javascript for ServiceNow Professionals",
+    "course_url": "https://www.udemy.com/course/servicenow-javascript-by-uday-gadiparthii/",
+    "coupon_code": "JUNEMO2",
+    "full_url": "https://www.udemy.com/course/servicenow-javascript-by-uday-gadiparthii/?couponCode=JUNEMO2",
+    "source": "discudemy.com"
+  }
+]
